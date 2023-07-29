@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <!--------------Script from www.fontawesome, used in About section ------>
+    <script src= "https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+
+    
+</head>  
+
+<body>
+    <div id="header">              <!--Background picture stored in Header-->
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" alt="logo" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Fullstack Developer</p>
+                <h1>Hi, I'm <span>Henry</span> <br> From South Africa </h1>
+
+                <div id="google_translate_element"></div>
+            </div>
+        </div>
+    </div>
+
+ <!-------------------------About Section------------->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user_1.jpg" alt="user">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>As a BCom Informatics student at the esteemed University of Pretoria,
+                         I bring a unique combination of ambition, diligence, and a passion for
+                          problem-solving. With a penchant for learning, I consider myself a
+                           philomath who is always up for a challenge. I have a well-rounded skill
+                            set as a Front & Back-end developer, with an ability to work effectively
+                             in diverse environments. As I move forward in my career, I look foward to
+                              enhancing my expertise and contributing to the industry.
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('expertise')">Expertise</p>
+                        <p class="tab-links" onclick="opentab('miscellaneous')">Languages</p>
+                        <p class="tab-links" onclick="opentab('education')">Softwares</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>UI/UX</span> <br> Designing Web/App interfaces</li>
+                        <li><span>Web Development</span> <br> Web application Development</li>
+                        <li><span>Systems Development</span> <br> Database Analyst</li>
+                    </ul>
+                    </div>
+                    <div class="tab-contents" id="expertise">
+                    <ul>
+                        <li><span>Networking</span> <br>  Collaboration</li>
+                        <li><span>Communications</span> <br> Soft Skills</li>
+                        <li><span>Competent Researcher</span> <br> Createive Problem-solving</li>
+                    </ul>
+                    </div>
+                    <div class="tab-contents" id="miscellaneous">
+                    <ul>
+                        <li><span>C#</span> <br> HTML/ CSS / JavaScript</li>
+                        <li><span>R</span> <br> Python</li>
+                        <li><span>SQL </span> <br>.Net MVC</li>
+                    </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>Database Design</span> <br> Power Design / Figma</li>
+                        <li><span>R Studio</span> <br> PyCharm</li>
+                        <li><span>VS Code</span> <br> Visual Studios Home</li>
+                    </ul>
+                    </div>
+
+                    <h1 class="sub-title">Education</h1>
+                    <p>BCOM INFORMATICS INFORMATION SYSTEMS, UNIVERSITY OF PRETORIA<br>
+                        This comprehensive qualification aims to produce graduates who can provide
+                         for the current needs in the contemporary business workplace in areas such
+                          as systems analysis, database development and software systems design,
+                           enhancement, management, and evaluation. All to address diverse 
+                           challenges and requirements of the business environment.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!---------------------------Serice Section------------------------>
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fas fa-code"></i>  <!----------External class from online script------>
+                    <h2>Web Design</h2>
+                    <p>I am very good at web development and as time goes on I will be unstopable</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fas fa-crop-alt"></i>   <!----------External class from online script------>
+                    <h2>UI/UX Design</h2>
+                    <p>I am very good at web development and as time goes on I will be unstopable</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fab fa-app-store"></i>   <!----------External class from online script------>
+                    <h2>APP Design</h2>
+                    <p>I am very good at web development and as time goes on I will be unstopable</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+
+        
+    </div>
+    <!-------------------------My Work  Section-------------------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/Image_1.jpg" alt="Work-1">
+                    <div class="layer">
+                        <h3>Portfolio Website</h3>
+                        <p>The link connects you to the Portfolio  Website of a freelance videographer, 
+                            photographer and editor
+                        </p>
+                        <a href="Photography/index.html" ><i class="fas fa-external-link-alt"></i></a>
+                        
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png" alt="Work-2">
+                    <div class="layer">
+                        <h3>Slice n Dice Application</h3>
+                        <p>The link connects you to a website with a wonderful game called 
+                            Slice n Dice 
+                        </p>
+                        <a href="Game_1/index.html"><i class="fas fa-external-link-alt"></i></a> 
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-1.png" alt="work-3">
+                    <div class="layer">
+                        <h3>Color Blast Application</h3>
+                        <p>The link connects you to a website with a wonderful retro game called 
+                            Color Blast that has a high tempo of fun
+                        </p>
+                        </p>
+                        <a href="Game_2/index.html"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="images/work-3.png" alt="work-3">
+                    <div class="layer">
+                        <h3>Snake Application</h3>
+                        <p>The link connects you to a website with a wonderful remake of the 
+                            famous Snake application
+                        </p>
+                        <a href="Game_3/index.html"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+    <!------------------------Contact Section --------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p> <i class="fas fa-paper-plane"></i> Henrymbewe99@Gmail.com</p>
+                    <p> <i class="fas fa-phone-square-alt"></i> +27 81 272 4506</p>
+                    <div class="social-icons">
+                        <a href="https://facebook.com/"><i class="fab fa-facebook"></i></a>
+                        <a href="https://twitter.com/"><i class="fab fa-twitter-square"></i></a>
+                        <a href="https://instagram.com/"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/henry-mbewe-159a0a284"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                    <a href="images/Henry_315.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p> Copyright @ Henry. Made with <i class="fas fa-heart"></i>  by Henry</p>
+        </div>
+    </div>
+    <!-------------------------Script Section------------->
+    <script src="script.js"></script>
+
+    <script>
+        // JavaScript code to handle the link click event
+        document.getElementById("external-link").addEventListener("click", function(event) {
+          event.preventDefault(); // Prevent the default link behavior
+          window.location.href = event.target.parentElement.href; // Redirect to the link's href attribute
+        });
+      </script>
+
+    
+</body>
+</html>
