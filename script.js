@@ -59,3 +59,16 @@ script.src = 'https://translate.google.com/translate_a/element.js?cb=googleTrans
 // Append the script to the document body
 document.body.appendChild(script);
     
+
+// -----------Chatbot-----
+window.chatbaseConfig = {
+    chatbotId: "VILgRP7vOhMt7ZjNxgoB4",
+  };
+  
+  // Load the chatbase embed script
+  var chatbaseScript = document.createElement('script');
+  chatbaseScript.src = "https://www.chatbase.co/embed.min.js";
+  chatbaseScript.id = "VILgRP7vOhMt7ZjNxgoB4";
+  chatbaseScript.defer = true;
+  document.head.appendChild(chatbaseScript);
+  
