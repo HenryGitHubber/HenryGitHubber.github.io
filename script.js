@@ -62,13 +62,21 @@ document.body.appendChild(script);
 
 // -----------Chatbot-----
 window.chatbaseConfig = {
-    chatbotId: "VILgRP7vOhMt7ZjNxgoB4",
+    chatbotId: "hd_50-50oHBn_3OK1EOuJ",
   };
   
   // Load the chatbase embed script
   var chatbaseScript = document.createElement('script');
   chatbaseScript.src = "https://www.chatbase.co/embed.min.js";
-  chatbaseScript.id = "VILgRP7vOhMt7ZjNxgoB4";
+  chatbaseScript.id = "hd_50-50oHBn_3OK1EOuJ";
   chatbaseScript.defer = true;
   document.head.appendChild(chatbaseScript);
   
+
+
+
+
+  // Resize the iframe when its content has loaded
+  window.addEventListener('DOMContentLoaded', resizeIframe);
+  // Resize the iframe again when the window is resized
+  window.addEventListener('resize', resizeIframe);
