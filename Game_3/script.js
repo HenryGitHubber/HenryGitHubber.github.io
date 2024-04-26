@@ -1,6 +1,5 @@
 /**
- * Snake game created with plain JavaScript by Ibrahim fariat.
- * Follow me if you like it!
+ * Snake game created with plain JavaScript
  **/
 
 let dom_replay = document.querySelector("#replay");
