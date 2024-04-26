@@ -223,6 +223,8 @@ nav ul li a:hover::after{
     border-radius: 10px;
     display: block;
     transition: transform 0.5s;
+    width: 450px; /*------Will delete------*/
+    height: 600px; /*------Will delete------*/
 }
 
 .layer{
@@ -441,6 +443,16 @@ nav .fas{      /*to disable the menu and x of the dropdowns.... ONly visible for
     .copyright{
         font-size: 16px;
     }
+
+    .work img{
+        width: 100%;
+        border-radius: 10px;
+        display: block;
+        transition: transform 0.5s;
+        width: 330px; /*------Will delete------*/
+        height: 430px; /*------Will delete------*/
+    }
+    
 }
 
 /* ---------------Message after submitting the response ---------*/
@@ -450,3 +462,14 @@ nav .fas{      /*to disable the menu and x of the dropdowns.... ONly visible for
     display: block;
 }
 
+/* ---------------Testing new code---------*/
+
+
+
+
+.contact-right {
+    position: relative;
+    overflow: hidden;
+    width: 600px; /* Set the desired width */
+    height: 500px; /* Set the desired height */
+  }

@@ -62,13 +62,13 @@ document.body.appendChild(script);
 
 // -----------Chatbot-----
 window.chatbaseConfig = {
-    chatbotId: "JrEWVudO2SguNwseE8Sgd",
+    chatbotId: "VILgRP7vOhMt7ZjNxgoB4",
   };
   
   // Load the chatbase embed script
   var chatbaseScript = document.createElement('script');
   chatbaseScript.src = "https://www.chatbase.co/embed.min.js";
-  chatbaseScript.id = "JrEWVudO2SguNwseE8Sgd";
+  chatbaseScript.id = "VILgRP7vOhMt7ZjNxgoB4";
   chatbaseScript.defer = true;
   document.head.appendChild(chatbaseScript);
   
