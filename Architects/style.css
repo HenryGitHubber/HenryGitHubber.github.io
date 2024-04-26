@@ -1,0 +1,95 @@
+/* Add your custom styles here */
+.header {
+    position: relative;
+    text-align: center;
+    padding: 50px 0;
+  }
+  
+  .header-content {
+    position: relative;
+  }
+  
+  .header-image {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .header-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+  }
+  
+  .header-text h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  .tagline {
+    font-size: 1.5rem;
+    margin-bottom: 0;
+  }
+  
+  .section-header {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  .projects .row {
+    justify-content: center;
+  }
+  
+  .about {
+    margin-bottom: 50px;
+  }
+  
+  .contact {
+    margin-bottom: 100px;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .contact-form button {
+    width: 100%;
+  }
+
+  
+  /* Navbar */
+.navbar {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    border-bottom: 2px groove grey;
+    border-style: groove; 
+    padding: 10px;
+  }
+  
+  /* Adjust padding to make room for the fixed navbar */
+  body {
+    padding-top: 10px; /* Adjust as needed */
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 1600px; /* Adjust the max-width as needed */
+    margin: 0 auto; /* Center the container */
+    box-sizing: border-box; /* Include padding in width calculation */
+  }
+
+  .navbar .nav-link:hover {
+    background-color: #bdb7b7; /* Grey background color */
+}
+
+.nav-item {
+    margin-right: 20px; /* Adjust the spacing as needed */
+}
+
